@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FBFADE;
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    height: 80vh;
+    background-color: #F09C27;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.box1{
+    height: 677px;
+    width: 400px;
+    /* border: 2px solid black; */
+    padding: 40px;
+    margin-left: auto;
+}
+
+.img5{
+    height: 677px;
+    width: 451px;
+    background-image: url('img5.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box2{
+    height: 700px;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;      
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.login{
+    width: 100%;
+    max-width: 500px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.login h3{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    color: #990B0B;
+    line-height: 1; 
+}
+
+.login p{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+}
+
+.name-row{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.fullname, .lastname{
+    flex: 1;
+    min-width: 0;
+}
+
+.name-row input{
+    width: 200px;
+    height: 68px;
+    background-color: #FBFADE;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.name-row input::placeholder{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.input-box{
+    margin-top: 20px; 
+}
+
+
+.input-box input{
+    width: 450px;
+    max-width: 550px;
+    height: 68px;
+    background-color: #FBFADE;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0 15px;
+    font-size: 20px;
+
+}
+
+.input-box input::placeholder{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.option{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+}
+
+.remember{
+    font-size: 16px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+/* .remember input{
+    accent-color: #FBFADE;
+} */
+
+.btn{
+    width: 480px;
+    max-width: 550px;
+    height: 68px;
+    background-color: #990B0B;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 25px;
+    margin-top: 30px;
+    color:#FBFADE;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #990B0B;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+.sign-up{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sign-up a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+} 
+
+.login-with p {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.login-with p span { 
+    background:#F09C27; 
+    padding:0 20px; 
+}
+
+.btn2{
+    width: 480px;
+    max-width: 550px;
+    height: 68px;
+    background-color:#FBFADE;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 25px;
+    margin-top: 10px;
+    color:#FBFADE;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: #FBFADE;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+.img4{
+    height: 60px;
+    width: 50px;
+    background-image: url('img4.png');
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    margin: auto;
+    mix-blend-mode:multiply;
+}

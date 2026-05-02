@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FBFADE;
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 120px;
+    border-bottom: 6px solid #F09C27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 40px;
+    position: relative;
+}
+
+.box1{
+    height: 200px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+
+.img1{
+    height: 200px;
+    background-image: url('img1.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-top: 0px;
+    padding: 0;
+    margin-top: 90px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: .3s;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #F09C27;
+}
+
+.left, .right{
+    flex: 1;
+    display: flex;
+}
+
+.left{
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.right{
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.logo{
+    flex:0;
+    bottom: -40px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    height: 75vh;
+    background-color: #F09C27;
+    border-radius: 15px;
+    margin: 80px auto;
+    padding: 10px;
+}
+
+.container h3{
+    font-size: 35px;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.5;
+    margin: 30px 30px;
+}
+
+.form-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.form-field1, .form-field2{
+    flex: 1;
+}
+
+.form-field1{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-left: 30px;
+}
+
+.form-field2{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form-field1 h4, .form-field2 h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+input{
+    width: 460px;
+    max-width: 550px;
+    height: 60px;
+    background-color: #FBFADE;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+button{
+    color: black;
+    background-color: #990B0B;
+    width: 135px;
+    height: 60px;
+    font-size: 23px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 85px;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+button:hover{
+    background-color: #990B0B;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
